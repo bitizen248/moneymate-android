@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        fab:menu_labels_textColor="#000000"
+        fab:menu_labels_textSize="14sp"
+        app:menu_colorNormal="@color/colorPrimary"
+        app:menu_colorPressed="@color/colorPrimaryDark">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/button_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_people_black_24dp"
+            style="@style/MenuButtonsStyle"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/button_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_person_black_24dp"
+            style="@style/MenuButtonsStyle"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/button_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_edit_black_24dp"
+            style="@style/MenuButtonsStyle"/>
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>

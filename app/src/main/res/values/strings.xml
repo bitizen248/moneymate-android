@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MoneyMate</string>
+    <string name="app_name_dev">Money Mate</string>
+    <string name="company_slogan">Управляй финансами удобно!</string>
+    <string name="vk_login">Войти через Вконтакте</string>
+    <string name="time">%1$02d:%2$02d</string>
+</resources>
